@@ -1,0 +1,2 @@
+The current project aims to make a more complete webpage using Flexbox knowledge in addition with HTML and CSS to create a more easily navigable, modern looking webpage.
+This page is based on a 2 image configuration provided by TOP so it might not look as streamlined and modern as any other page, it should still contain instances where Flexbox allows for a seemless transition on screen sizes and proper spacing of elements.
