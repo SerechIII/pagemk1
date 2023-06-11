@@ -105,7 +105,7 @@ button {
     align-items: center;
     
 }
-.section-header, .section-mid {
+.section-header, .section-mid, .section-quotes, .section-call,.section-copyright {
     padding: 30px;
 }
 .square {
@@ -135,3 +135,74 @@ h3 {
     margin: 10px;
     color: #1F2937;
 }
+.section-quotes {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.signature {
+    font-weight: 900;
+    font-size: 24px;
+    color: #1F2937;
+}
+.section-call {
+    background-color: #3882F6;
+    margin: 6% 15%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.call {
+    color: #e5e7eb;
+    font-size: 22px;
+    font-weight: 900;
+    width:300px;
+}
+.call-2 {
+    color: #e5e7eb;
+    width:500px;
+    font-size: 14px;
+}
+.callbutton {
+    border: 3px solid #e5e7eb;
+    padding: 0;
+    margin: 0;
+    border-radius: 7px;
+    font-weight: 1000;
+}
+.calltext {
+    width: 500px;
+    margin: 0;
+    padding: 0;
+}
+.section-copyright {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright {
+    color: #e5e7eb;
+
+}
+
+
+
